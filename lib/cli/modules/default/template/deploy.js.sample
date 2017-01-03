@@ -1,0 +1,9 @@
+module.exports = {
+    webpack: {
+        outputPath: 'public',
+        publicPath: 'http://localhost:2331',
+        options: {
+
+        }
+    }
+};

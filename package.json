@@ -1,0 +1,103 @@
+{
+  "name": "mowa",
+  "version": "0.0.4",
+  "description": "A modular web application framework based on koa.",
+  "scripts": {    
+    "test": "node_modules/.bin/mocha -R spec -t 5000 test/*.mocha.js",
+    "cover": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -R dot -t 5000 test/*.mocha.js",
+    "travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- -R dot -t 5000 test/*.mocha.js"
+  },
+  "keywords": [
+    "web",
+    "builder",
+    "modular",
+    "framework",
+    "koa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitmi/mowa.git"
+  },
+  "bin": {
+    "mowa": "./bin/mowa.js"
+  },
+  "bugs": {
+    "url": "https://github.com/kitmi/mowa/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kitmi/mowa/raw/master/LICENSE"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rockie Guo",
+      "email": "rockie@kitmi.com.au",
+      "url": "https://github.com/rockie"
+    }
+  ],
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "async-co": "^1.6.0",
+    "debug": "^2.2.0",
+    "dot": "^1.0.3",
+    "fs-extra": "^0.10.0",
+    "glob": "^6.0.3",
+    "inquirer": "^0.11.4",
+    "koa": "1.1.2",
+    "koa-async": "^1.0.0",
+    "koa-better-body": "^3.0.0",
+    "koa-compress": "^1.0.9 ",
+    "koa-connect": "^1.0.0",
+    "koa-etag": "^2.1.0",
+    "koa-favicon": "^1.2.0",
+    "koa-flash": "^1.0.0",
+    "koa-generic-session": "^1.10.0",
+    "koa-methodoverride": "1.0.0",
+    "koa-middleware-swig": "^1.0.0",
+    "koa-mount": "^1.3.0",
+    "koa-passport": "^1.3.0",
+    "koa-router": "^5.3.0",
+    "koa-static": "^1.5.2",
+    "koa-vhost": "^0.5.0",
+    "koa-webpack-dev": "^1.0.0",
+    "lodash": "^4.14.1",
+    "lru-cache": "^2.7.3",
+    "manage-database": "^0.1.3",
+    "moment": "^2.10.6",
+    "moment-timezone": "^0.4.1",
+    "mongodb": "^2.1.4",
+    "mysql-crud": "^0.1.4",
+    "node-mysql-promise2": "*",
+    "nodemiral": "^1.1.1",
+    "oauth20-provider": "^0.6.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^4.4.6",
+    "pg-hstore": "^2.3.2",
+    "regenerator": "^0.8.46",
+    "silent-npm-registry-client": "^2.1.0",
+    "socket.io": "^1.4.8",
+    "sqlite3": "^3.1.1",
+    "string": "^3.3.1",
+    "systemjs": "^0.19.5",
+    "tedious": "^1.13.2",
+    "tiny-xml": "^1.0.6",
+    "underscore": "^1.8.3",
+    "winston": "^2.1.0",
+    "winston-daily-rotate-file": "^1.4.0",
+    "winston-mail": "^1.0.0",
+    "winston-mongodb": "^1.2.0"
+  },
+  "main": "index",
+  "engines": {
+    "node": "5.0.0"
+  }
+}
