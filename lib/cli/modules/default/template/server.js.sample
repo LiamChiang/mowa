@@ -2,6 +2,6 @@
 
 const Mowa = require('mowa');
 
-let mowa = new Mowa('{{ serverName }}');
+let mowa = new Mowa('{{ serverName }}', { verbose: true });
 
 mowa.start();
