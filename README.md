@@ -134,7 +134,3 @@ Options:
 ## License
 
   MIT
-
-## Latest version
-
-  0.0.5

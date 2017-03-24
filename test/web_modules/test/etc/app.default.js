@@ -2,7 +2,7 @@ module.exports = {
     middlewares: {
         serveStatic: { root: 'www' }
     },
-    routes: {
+    routing: {
         '/': {
             rule: {
                 middlewares: {
