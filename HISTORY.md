@@ -13,3 +13,8 @@
 
   * add mowa deployment tool
   * add oolong dsl module
+
+0.0.6 / 2017-03-17
+==================
+  * add mowa init
+  * add mowa createApp

@@ -1,5 +1,5 @@
 module.exports = {
-    boot: {
+    bootstrap: {
         path: 'test/boot'
     },
     i18n: {
@@ -34,14 +34,14 @@ module.exports = {
     },
     middlewares: {
         favicon: 'test/temp/favicon.ico',
-        gzip: {},
+        compress: {},
         etag: {},
         test: {},
         serveStatic: { root: 'test/temp' },
         bodyParser: {},
         methodOverride: {}
     },
-    routes: {
+    routing: {
         '/': {
             rule: {
                 controllers: 'test/controllers',
@@ -65,10 +65,7 @@ module.exports = {
         },
         '/submodule': {
             mod: {
-                name: 'test',
-                options: {
-                    modulesPath: 'test/web_modules'
-                }
+                name: 'test'
             }
         }
     }
