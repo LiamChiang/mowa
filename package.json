@@ -79,7 +79,6 @@
     "mysql-crud": "^0.1.4",
     "node-mysql-promise2": "*",
     "nodemiral": "^1.1.1",
-    "oauth20-provider": "^0.6.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "pg": "^4.4.6",
